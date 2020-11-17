@@ -1,4 +1,13 @@
 require 'pry'
+##############
+# I know NOTHING! I literally spent the whole hour working on the first problem. 
+# I tried utlizing Google, but it's like I don't even know what to search for.
+# Super frustrating, and I'm bit sad, but I just gotta work harder because I'm 
+# literally starting at ground zero...or more like 100. :(
+###############
+
+
+
 
 #########################
 # Data for the newsletter
@@ -28,9 +37,8 @@ ARTICLES = [
 #########################
 
 def calculate_recipients
-    def subscribers
-        
-    end
+    UNSUBSCRIBED.each do |num|
+        puts num
   # Using the SUBSCRIBERS and UNSUBSCRIBED arrays,
   # write a method that will return an array of only the subscribers who haven't unsubscribed
 end
