@@ -28,9 +28,8 @@ ARTICLES = [
 #########################
 
 def calculate_recipients
-    def subscribers
-        
-    end
+    UNSUBSCRIBED.each do |x|
+        puts x
   # Using the SUBSCRIBERS and UNSUBSCRIBED arrays,
   # write a method that will return an array of only the subscribers who haven't unsubscribed
 end
